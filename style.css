@@ -1,4 +1,5 @@
 
+
 html {
   margin: 0;
   line-height: 1.15;
@@ -56,22 +57,237 @@ h1, h2, h3 {
   color: #fff;
 }
 
+
+
 .grid {
   height: 100%
   width: 100%;
   position: relative;
-  max-width: 1200px;
+  max-width: 1500px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 8px;
 
 
 }
 
+.grid2 {
+  height: 100%
+  width: 100%;
+  position: relative;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 8px;
+
+
+}
+
+.grid3 {
+  height: 100%
+  width: 100%;
+  position: relative;
+  max-width: 1500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+  padding-bottom: 0px;
+
+
+}
+
+
 .center {
   text-align: center;
+
 }
+
+.right{
+
+    text-align:right;
+
+
+}
+.left{
+
+    text-align:left;
+
+
+}
+
+
+.nick1{
+    position:relative;
+    width: 30%;
+    align-content: center;
+left: 35%;
+
+
+
+
+}
+
+.h{
+
+    width: 15px;
+    height: 30px;
+    top: 90%;
+    padding-left: 30px;
+
+
+}
+.h_2{
+
+    width: 15px;
+    height: 30px;
+    top: 90%;
+    padding-left: 30px;
+
+
+}
+.h_3{
+
+    width: 15px;
+    height: 30px;
+    top: 90%;
+    padding-left: 30px;
+
+
+}
+.h_4{
+
+    width: 15px;
+    height: 30px;
+    top: 90%;
+    padding-left: 30px;
+
+
+}
+.h_5{
+
+    width: 15px;
+    height: 30px;
+    top: 90%;
+    padding-left: 30px;
+
+
+}
+
+.slide1{
+   font-size: 5em;
+text-align: center;
+
+}
+.slide2{
+    font-size: 7.5em;
+    padding-bottom: 100px;
+}
+.slide3{
+ font-size: 7em;
+    padding-bottom: 0px;
+}
+.slide4{
+   font-size: 6.5em;
+    padding-bottom: 30px;
+
+}
+.slide5{
+    font-size: 6.5em;
+    padding-bottom: 30px;
+
+}
+.slide6{
+    font-size: 6em;
+    padding-bottom: 80px;
+}
+.slide7{
+   font-size: 6em;
+    padding-bottom: 220px;
+}
+.slide8{
+      font-size: 4.8em;
+     padding-bottom: 60px;
+
+
+}
+.slide9{
+    font-size: 10em;
+
+    text-align: center;
+}
+
+
+
+.tilt{
+    width: 100%;
+    align-self: center;
+
+}
+
+
+
+
+/*Code for hover*/
+
+dfn {
+  background: rgba(0,0,0,0.0);
+  border-bottom: solid 8px rgba(0,0,0,0);
+
+}
+dfn::after {
+
+content: url(Images/Tyler.png);
+  position: absolute;
+  top: 820px; left: -0;
+  opacity: 0;
+  padding: 0.5em 0.8em;
+  background: rgba(0,0,0,0.0);
+  transition: opacity 250ms, top 250ms;
+}
+dfn::before {
+  content: '';
+  top: 800px; left: 100px;
+  opacity: 0;
+  width: 0; height: 0;
+  border: solid transparent 5px;
+  transition: opacity 1000ms, top 2050ms;
+}
+dfn:hover::after,
+dfn:hover::before {opacity: 1;}
+dfn:hover::after {top: 450px;}
+dfn:hover::before {top: 20px;}
+
+dfn2 {
+  background: rgba(0,0,0,0.0);
+  border-bottom: solid 8px rgba(0,0,0,1);
+
+}
+dfn2::after {
+
+content: url(Images/nickdomino.png);
+  position: absolute;
+  top: 820px; left: -0;
+  opacity: 0;
+  padding: 0.5em 0.8em;
+  background: rgba(0,0,0,0.0);
+  transition: opacity 250ms, top 250ms;
+}
+dfn2::before {
+  content: '';
+  top: 800px; left: 100px;
+  opacity: 0;
+  width: 0; height: 0;
+  border: solid transparent 5px;
+  transition: opacity 1000ms, top 2050ms;
+}
+dfn2:hover::after,
+dfn2:hover::before {opacity: 1;}
+dfn2:hover::after {top: 450px;}
+dfn2:hover::before {top: 20px;}
+
+
 
 
 
@@ -84,7 +300,6 @@ h1, h2, h3 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
 
 /* ANIMATION DURATIONN */
 
@@ -466,18 +681,21 @@ h1, h2, h3 {
 
 @-webkit-keyframes pulse {
   from {
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
+    -webkit-transform: scale3d(1, 1, 5);
+    transform: scale3d(1, 2, 1);
+      transform: rotate(0,0,0);
   }
 
   50% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    -webkit-transform: scale3d(1.1, 2.1, 2.1);
     transform: scale3d(1.1, 1.1, 1.1);
+      transform: rotate(200,0,0);
   }
 
   to {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
+      transform: rotate(200,0,0);
   }
 }
 
@@ -485,16 +703,20 @@ h1, h2, h3 {
   from {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
+      transform: rotate(0,0,0);
   }
 
   50% {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    -webkit-transform: scale3d(1.1, 2.1, 2.1);
     transform: scale3d(1.1, 1.1, 1.1);
+       transform: rotate(200,0,0);
   }
 
   to {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
+       transform: rotate(200,0,0);
+
   }
 }
 
@@ -537,8 +759,8 @@ h1, h2, h3 {
   50%,
   70%,
   90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 10px, 0);
   }
 
   20%,
@@ -546,7 +768,7 @@ h1, h2, h3 {
   60%,
   80% {
     -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, -10, 0);
   }
 }
 
@@ -619,7 +841,6 @@ h1, h2, h3 {
     font-size: 2.8em;
   }
 }
-
 
 
 

@@ -13,6 +13,10 @@
 
 
 
+
+
+
+
 // FULLPAGE SCRIPT - FULL SCREEN WHEN SCROLLING //
 
   $ (".js_scroll").fullpage({
@@ -23,6 +27,14 @@
       wow.init()
     }
   });
+
+
+
+ VanillaTilt.init(document.querySelector(".tilt"), {
+        max: 25,
+        speed: 400
+    });
+
 
 
 // JQUERY //
