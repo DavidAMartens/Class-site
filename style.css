@@ -233,7 +233,7 @@ text-align: center;
 
 dfn {
   background: rgba(0,0,0,0.0);
-  border-bottom: solid 8px rgba(0,0,0,0);
+  border-bottom: solid 8px rgba(0,0,0,9);
 
 }
 dfn::after {
