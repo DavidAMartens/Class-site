@@ -1,0 +1,747 @@
+html {
+  margin: 0;
+  line-height: 1.15;
+
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, Athelas, times, serif;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.4;
+  letter-spacing: .02em;
+  color: #000;
+  background-color: #fff;
+
+
+    font: 100% / 1.5 Arial;
+
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, Athelas, times, serif;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: .6em;
+
+}
+
+
+
+img {
+transition: all .2s ease-in-out;
+}
+
+img:hover {
+transform: scale(1);
+webkit-filter: blur(4px);
+filter: blur(4px);
+}
+
+  .parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+
+  .parallaxlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+
+
+  .pic_1 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(1);
+  }
+  .pic_2 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_3 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(-2px) scale(2);
+  }
+  .pic_4 {
+ -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(-2px) scale(2);
+  }
+  .pic_5 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+  .pic_6 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_7 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(2px) scale(1);
+  }
+  .pic_8 {
+ -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(-2px) scale(2);
+  }
+  .pic_9 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+  .pic_10 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_11 {
+    -webkit-transform: translateZ(-10px) scale(2);
+    transform: translateZ(2px) scale(2);
+  }
+  .pic_12 {
+ -webkit-transform: translateZ(4px) scale(3);
+    transform: translateZ(0px) scale(2);
+  }
+  .pic_13 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+  .pic_14 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_15 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(-2px) scale(2);
+  }
+  .pic_16 {
+ -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(5px) scale(2);
+  }
+  .pic_17 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(4px) scale(2);
+  }
+  .pic_18 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(3);
+  }
+  .pic_19 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(7px) scale(1);
+  }
+  .pic_20 {
+ -webkit-transform: translateZ(-1px) scale(1);
+    transform: translateZ(3px) scale(2);
+  }
+  .pic_21 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+  .pic_22 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_23 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(1px) scale(1);
+  }
+  .pic_24 {
+ -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(2px) scale(2);
+  }
+  .pic_25 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(3px) scale(1);
+  }
+  .pic_26 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_27 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(2px) scale(0);
+  }
+  .pic_28 {
+ -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(6px) scale(1);
+  }
+  .pic_29 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(1);
+  }
+  .pic_30 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_31 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(-2px) scale(2);
+  }
+  .pic_32 {
+ -webkit-transform: translateZ(-5px) scale(3);
+    transform: translateZ(5px) scale(2);
+  }
+  .pic_33 {
+ -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(5px) scale(2);
+  }
+  .pic_34 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(1px) scale(2);
+  }
+  .pic_35 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_36 {
+    -webkit-transform: translateZ(-1px) scale(1);
+    transform: translateZ(-1px) scale(1);
+  }
+  .pic_37 {
+ -webkit-transform: translateZ(-1px) scale(1);
+    transform: translateZ(-2px) scale(2);
+  }
+
+
+  .pic_38 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(1);
+  }
+  .pic_39 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_40 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-2px) scale(1);
+  }
+  .pic_41 {
+ -webkit-transform: translateZ(-1px) scale(1);
+    transform: translateZ(-1px) scale(1);
+  }
+  .pic_42 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+  .pic_43 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_44 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(2px) scale(1);
+  }
+  .pic_45 {
+ -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(2px) scale(2);
+  }
+  .pic_46 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+  .pic_47 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_48 {
+    -webkit-transform: translateZ(-10px) scale(2);
+    transform: translateZ(2px) scale(2);
+  }
+  .pic_49 {
+ -webkit-transform: translateZ(1px) scale(3);
+    transform: translateZ(2px) scale(2);
+  }
+  .pic_50 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(2);
+  }
+  .pic_51 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_52 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(-2px) scale(2);
+  }
+  .pic_53 {
+ -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(5px) scale(2);
+  }
+  .pic_54 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(4px) scale(2);
+  }
+  .pic_55 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(3);
+  }
+  .pic_56 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(7px) scale(1);
+  }
+  .pic_57 {
+ -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(1px) scale(1);
+  }
+  .pic_58 {
+    -webkit-transform: translateZ(-1px) scale(2);
+    transform: translateZ(-1px) scale(1);
+  }
+  .pic_59 {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+  .pic_60 {
+    -webkit-transform: translateZ(-1px) scale(3);
+    transform: translateZ(1px) scale(1);
+  }
+
+
+
+
+
+
+
+
+
+  .parallax {
+    font-size: 500%;
+  }
+
+  .parallaxlayer {
+    padding: 100vh 0;
+  }
+
+
+  .title1 {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title2 {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title3 {
+    position: absolute;
+    left: 80%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title4 {
+    position: absolute;
+    left: 0%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title5 {
+    position: absolute;
+    left: 64%;
+    top: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title6 {
+    position: absolute;
+    left: 75%;
+    top: 76%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title7 {
+    position: absolute;
+    left: 32%;
+    top: 32%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title8 {
+    position: absolute;
+    left: 8%;
+    top: 94%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title9 {
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title10 {
+    position: absolute;
+    left: 34%;
+    top: 87%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title11 {
+    position: absolute;
+    left: 730%;
+    top: 44%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title12 {
+    position: absolute;
+    left: 90%;
+    top: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title13 {
+    position: absolute;
+    left: 80%;
+    top: 80%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title14 {
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title15 {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title16 {
+    position: absolute;
+    left: 5%;
+    top: 34%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title17 {
+    position: absolute;
+    left: 0%;
+    top: -20%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title18 {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title19 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title20 {
+    position: absolute;
+    left: 55%;
+    top: 405%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title21 {
+    position: absolute;
+    left: 40%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title22 {
+    position: absolute;
+    left: 50%;
+    top: 300%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title23 {
+    position: absolute;
+    left: 82%;
+    top: 300%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title24 {
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title25 {
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title26 {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title27 {
+    position: absolute;
+    left: 99%;
+    top: 10%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title28 {
+    position: absolute;
+    left: 95%;
+    top: 13%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title29 {
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title30 {
+    position: absolute;
+    left: 100%;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title31 {
+    position: absolute;
+    left: 60%;
+    top: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title32 {
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title33 {
+    position: absolute;
+    left: 80%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title34 {
+    position: absolute;
+    left: 70%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title35 {
+    position: absolute;
+    left: 40%;
+    top: 160%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title36 {
+    position: absolute;
+    left: 5%;
+    top: 134%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title37 {
+    position: absolute;
+    left: 90%;
+    top: 154%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title38 {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title39 {
+    position: absolute;
+    left: 5%;
+    top: 34%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title40 {
+    position: absolute;
+    left: 0%;
+    top: -20%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title41 {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title42 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title43 {
+    position: absolute;
+    left: 45%;
+    top: 305%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title44 {
+    position: absolute;
+    left: 40%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title45 {
+    position: absolute;
+    left: 50%;
+    top: 300%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title46 {
+    position: absolute;
+    left: 32%;
+    top: 210%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title47 {
+    position: absolute;
+    left: 65%;
+    top: 15%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title48 {
+    position: absolute;
+    left: 90%;
+    top: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title49 {
+    position: absolute;
+    left: 9%;
+    top: 95%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title50 {
+    position: absolute;
+    left: 43%;
+    top: 90%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title51 {
+    position: absolute;
+    left: 95%;
+    top: 13%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title52 {
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title53 {
+    position: absolute;
+    left: 100%;
+    top: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title54 {
+    position: absolute;
+    left: 60%;
+    top: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title55 {
+    position: absolute;
+    left: 5%;
+    top: 130%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title56 {
+    position: absolute;
+    left: 80%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title57 {
+    position: absolute;
+    left: 20%;
+    top: 200%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title58 {
+    position: absolute;
+    left: 40%;
+    top: 160%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title59 {
+    position: absolute;
+    left: 5%;
+    top: 134%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .title60 {
+    position: absolute;
+    left: 90%;
+    top: 154%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
